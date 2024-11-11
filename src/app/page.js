@@ -1,3 +1,4 @@
+import Comment from '@/components/comment/Comment';
 import Section from '@/components/layout/Section';
 import Image from 'next/image';
 
@@ -11,8 +12,8 @@ export default function Home() {
           <li>news3</li>
         </ul>
       </Section>
-      <Section title='섹션2' desc='설명2'>
-        dddd
+      <Section title='코멘트' desc='나의 글에 코멘트 달린 목록'>
+        <Comment />
       </Section>
       <Section title='섹션3' desc='설명3'>
         dddddddddd
